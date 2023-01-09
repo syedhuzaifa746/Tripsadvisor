@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar  */
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat; 
+    align-items: center;
+    box-shadow: 1px 1px 2px #fff;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+
+    
+}
+.search_bar{
+    width: 350px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgb(253, 253, 253);
+}
+.search_parent{
+position: relative;
+}
+.search_child{
+    position: absolute;
+    top: 10px;
+    margin-left: 5px;
+}
+i{
+margin-right: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+li > a{
+    text-decoration: none;
+    color: black;
+}
+.sign_in{
+    background-color: rgb(207, 239, 252);
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+}
+li:hover{
+    background-color: azure;
+}
+
+.logo-img{
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+/* box Section */
+.box_container{
+ display: flex;
+ justify-content: center; 
+ padding-top: 100px; 
+ flex-wrap: wrap;  
+ /* background-color: antiquewhite; */
+}
+
+.box{
+    height: 90px;
+    width: 280px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+
+
+
+
+/* Flex task 1 */
+
+h2,p{
+    margin: 20px;
+
+}
+ .main_container{
+    margin-top: 10px;
+} 
+.card_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: rgb(212, 240, 247); */
+    height: 300px;
+    min-width: 600px;
+    margin-top: 10px;
+}
+
+.RivieraMaya_card{
+    width: 280px;
+    height: 280px;
+    background-color: rgb(207, 207, 201);
+    position: relative;
+    margin-right: 20px;
+}
+
+.RivieraMaya_img{
+    width: 280px;
+    height: 280px;
+     
+    
+}
+.RivierMaya_desc{   
+    position: absolute; 
+    top: 250px; 
+    padding-left: 20px;
+    color: rgb(248, 245, 245); 
+}
+
+.Reykjavik_card{
+    position: relative;
+}
+
+.Reykjavik_desc{
+    position: absolute; 
+    bottom: 15px; 
+    padding-left: 20px;
+    color: rgb(248, 245, 245); 
+}
+
+.Sydney_card{
+    position: relative;
+}
+.Sydney_desc {
+    position: absolute; 
+    bottom: 15px; 
+    padding-left: 20px;
+    color: rgb(248, 245, 245); 
+}
+
+.Grand_Canyon_card{
+    position: relative;
+}
+.Grand_Canyon_desc{
+    position: absolute; 
+    bottom: 15px; 
+    padding-left: 20px;
+    color: rgb(248, 245, 245); 
+}
+
+
+img:hover{
+opacity: 0.7;
+}
+p{
+    color: gray;
+    margin-top: 10px;
+}
+.box:hover{
+background-color: black;
+color: white;
+}
+
+/* flex-container */
+.flex-container{
+
+margin-top: 15px;
+
+}
+.card-container-2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    height: 380px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.card{
+    height: 380px;
+    width: 280px;
+    /* background-color: aquamarine; */
+}
+
+.khi-child{
+    width: 100%;
+}
+.karachi-card{
+    position: relative;
+}
+
+.southern-card{
+    position: relative;
+}
+
+.half-card{
+    position: relative;
+}
+
+.private-card{
+    position: relative;
+}
+
+.heart-icon{
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    border-radius: 110%;
+    top: 20px;
+    margin-left: 220px;
+}
+h3,h5{
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.flex-container3{
+    height: 250px;
+    margin-top: 50px;
+    width: 100%;
+    /* background-color: rgb(252, 239, 250); */
+    display: flex;
+    justify-content: center;
+}
+
+.crd{
+    height: 230px;
+    width: 630px ;
+    background-color: rgb(255, 232, 252);
+}
+button{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+.lstimg{
+    height: 230px;
+    width: 100%;
+}
+.txt_sec{
+    align-items: center;
+}
+button:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips Advisor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="logo-im">
+        <img src="images/logo-img.svg" class="logo-img" alt="logo-img">
+        </div>
+
+        <div class="search_parent"> 
+            <input type="search" class="search_bar">
+            <div class="search_child"> <i class="fa-solid fa-magnifying-glass"></i> </div>
+        </div>
+
+        <!-- list secttion (container) -->
+        <div class="list_container">
+            <ul>
+                <li><a href="#"> <i class="fa-solid fa-pencil"></i>Review</a></li>
+                <li><a href="#"> <i class="fa-regular fa-heart"></i>Trips</a></li>
+                <li><a href="#"> <i class="fa-regular fa-bell"></i>Alerts</a></li>
+                <li class="sign_in"><a href="#" > Sign in</a></li>
+                <li><a href="#"> <i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Box Section -->
+    <div class="box_container">
+        <div class="box box1"> Hotels <i class="fa-sharp fa-solid fa-bed"></i></div> 
+
+        <div class="box box2"> Vacation <br> Rentals <i class="fa-solid fa-house-user"></i></div>
+        <div class="box box3">Things to Do <i class="fa-solid fa-arrows-to-dot"></i></div>
+        <div class="box box4">Resturants <i class="fa-solid fa-utensils"></i></div>
+        <div class="box box5">Travel Stories <i class="fa-regular fa-globe"></i></div>
+        <div class="box box6">Flights <i class="fa-solid fa-plane-departure"></i></div>
+        <div class="box box7">Cruises <i class="fa-solid fa-shrimp"></i></div>
+        <div class="box box8">More <i class="fa-solid fa-ellipsis"></i></div>
+    </div>
+
+
+    <!-- Flex Section 1-->
+    <div class="main_container">
+        <h2>Where to go, right now</h2>
+        <p>Spots at the top of travelers’ must-go lists</p>
+
+        <div class="card_container">
+
+            <!-- Rivier Maya Card -->
+            <div class="RivieraMaya_card">
+
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/79/11/8c/caption.jpg?w=300&h=-1&s=1"
+                    alt="RivieraMaya_img" class="Riviera_Maya hov">
+
+                <div class="RivierMaya_desc">
+                    <h1 class="txt">Riviera Maya</h1>
+                </div>
+            </div>
+            
+            <!-- Reykjavik Card-->
+         <div class="Reykjavik_card">
+
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/79/12/05/caption.jpg?w=300&h=-1&s=1" class="Riviera_Maya hov">
+
+            <div class="Reykjavik_desc">
+                <h1 class="txt">Reykjavik</h1>
+            </div>
+
+         </div>
+
+            <!-- Sydney Card-->
+            <div class="Sydney_card">
+
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/79/11/c5/caption.jpg?w=300&h=-1&s=1"
+                    alt="RivieraMaya_img" class="Riviera_Maya hov">
+    
+                <div class="Sydney_desc">
+                    <h1 class="txt">Sydney</h1>
+                </div>
+    
+             </div>
+
+             <!-- Grand Canyon National Park -->
+
+            <div class="Grand_Canyon_card">
+
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/79/11/e8/caption.jpg?w=300&h=-1&s=1"
+                    alt="RivieraMaya_img" class="Riviera_Maya hov">
+    
+                <div class="Grand_Canyon_desc">
+                    <h1 class="txt">Grand Canyo</h1>
+                </div>
+    
+             </div>
+
+        </div>
+    </div>
+
+    <!-- Flex Section 2 -->
+
+    <div class="flex-container">
+        <h2>Ways to tour Karachi</h2>
+        <p>Book these experiences for a close-up look at Karachi.</p>
+
+        <div class="card-container-2">
+            <div class="karachi-card card">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cd/48/7a/caption.jpg?w=300&h=300&s=1" class="khi-child" alt="karachi-card">
+                <h3>UNESCO World Heritage Tour Near Karachi</h3>
+                <h5>from $145 per group</h5>
+                <div class="heart-icon"> <i class="fa-regular fa-heart"> </i> </div>
+            </div>
+
+            <div class="southern-card card">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/74/2d/ec/caption.jpg?w=300&h=300&s=1" class="khi-child" alt="karachi-card">
+                <h3>Southern Pakistan Indus Valleys Tour</h3>
+                <h5>from $145 per group</h5>
+                <div class="heart-icon"> <i class="fa-regular fa-heart"> </i> </div>
+            </div>
+
+            <div class="half-card card">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/20/a6/bc/caption.jpg?w=300&h=300&s=1" class="khi-child" alt="karachi-card">
+                <h3>Half Day Karachi Burn Road Private Victoria Ride With Dinner</h3>
+                <h5>from $145 per group</h5>
+                <div class="heart-icon"> <i class="fa-regular fa-heart"> </i> </div>
+            </div>
+
+            <div class="private-card card">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/1c/08/5f/caption.jpg?w=300&h=300&s=1" class="khi-child" alt="karachi-card">
+                <h3>Karachi Sightseeing Private Tour</h3>
+                <h5>from $145 per group</h5>
+                <div class="heart-icon"> <i class="fa-regular fa-heart"> </i> </div>
+            </div>
+        </div>
+    </div>
+    <!-- Third Flex -->
+    <div class="flex-container3">
+        <div class="txt_sec crd">
+            <h2>Your next trip starts here</h2>
+            <p>Top rated hotels that have earned the Best of the Best crown</p>
+            <button>See the list</button>
+        </div>
+        
+        <div class="img_sec crd">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/f7/1d/a0/caption.jpg?w=1000&h=-1&s=1" class="lstimg" alt="image">
+        </div>
+    </div>
+</body>
+</html>
